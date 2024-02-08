@@ -130,7 +130,8 @@ def process_generated_text(streaming_resp):
 
 
 st.title("Woo's 책 안내 📖🐛")
-st.image("./images/banner.png")
+#st.image("./images/banner.png")
+st.image("banner.png")
 with st.form("form"):
     query = st.text_input(
         label="읽고 싶은 책을 알려주면 AI가 추천해 줍니다요💡",
