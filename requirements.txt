@@ -1,2 +1,3 @@
 pillow
 openai
+pinecone-client
