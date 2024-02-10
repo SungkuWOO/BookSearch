@@ -6,7 +6,7 @@ from openai import OpenAI
 from pinecone import Pinecone
 
 st.set_page_config(
-    page_title="worms book",
+    page_title="Woo's book",
     page_icon="📖",
 )
 
@@ -47,11 +47,6 @@ def recommend(query_embedding):
     )
     matches = results["matches"]
     return [x["metadata"] for x in matches]
-
-
-
-
-
 
 
 def generate_prompt(query, items):
